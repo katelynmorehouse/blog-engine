@@ -1,0 +1,1 @@
+python ~/Documents/github\ /blog-engine/manage.py runserver
