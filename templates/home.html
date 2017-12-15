@@ -6,12 +6,17 @@
     <title>Home</title>
     <div class="post-container">
         {% for post in posts %}
-            <div class="post">
-                <div class="post__title"> {{post.title}} - {{post.user}}</div>
+        
+        <div class="post">
+        <a href="/post/{{post.id}}" class="post-link">
+            <div class="post__title"> {{post.title}} - {{post.user}}</div>
                 <div class="post__content">
-                        {{post.content}}
-                    </div>
+                    {{post.content}}
                 </div>
+            </a>
+        </div>
+       
+                           
         {% endfor %}
     </div>
 {% endblock %}

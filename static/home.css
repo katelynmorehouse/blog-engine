@@ -16,3 +16,9 @@
 .post__content{
     padding-top: 16px;
 }
+
+.post-link{
+    text-decoration: none;
+    color:black;
+        
+}
